@@ -10,10 +10,6 @@ export default {
     },
   },
   computed: {
-    /**
-     * Styles to animate the arrow
-     * @returns {{transform: string}}
-     */
     arrowStyle() {
       return {
         transform: `translate3d(0px, ${this.moveY}px, 0px)`,

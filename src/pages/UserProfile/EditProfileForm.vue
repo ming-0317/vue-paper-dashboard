@@ -8,7 +8,7 @@
               type="text"
               label="Company"
               :disabled="true"
-              placeholder="Paper dashboard"
+              placeholder="ProVision "
               v-model="user.company"
             >
             </fg-input>
@@ -25,7 +25,7 @@
           <div class="col-md-4">
             <fg-input
               type="email"
-              label="Username"
+              label="Email"
               placeholder="Email"
               v-model="user.email"
             >
@@ -125,15 +125,15 @@ export default {
   data() {
     return {
       user: {
-        company: "Paper Dashboard",
-        username: "michael23",
+        company: "ProVision ",
+        username: "mingjie",
         email: "",
-        firstName: "Chet",
-        lastName: "Faker",
-        address: "Melbourne, Australia",
-        city: "Melbourne",
-        postalCode: "",
-        aboutMe: `We must accept finite disappointment, but hold on to infinite hope.`,
+        firstName: "Ming",
+        lastName: "Jie",
+        address: "Johor, Malaysia",
+        city: "Kulai",
+        postalCode: "81000",
+        aboutMe: `Provide nice service to customer is our goal.`,
       },
     };
   },

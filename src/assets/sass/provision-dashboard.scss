@@ -1,7 +1,7 @@
 /*!
 
  =========================================================
- * Vue Paper Dashboard - v1.0.1
+ * ProVision  - v1.0.1
  =========================================================
 
  * Product Page: http://www.creative-tim.com/product/paper-dashboard
@@ -13,21 +13,21 @@
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
  */
-@import "paper/variables";
-@import "paper/mixins";
-@import "paper/typography";
+@import "provision/variables";
+@import "provision/mixins";
+@import "provision/typography";
 // Core CSS
-@import "paper/misc";
-@import "paper/sidebar-and-main-panel";
-@import "paper/buttons";
-@import "paper/inputs";
-@import "paper/alerts";
-@import "paper/tables";
-@import "paper/checkbox-radio";
-@import "paper/navbars";
-@import "paper/footers";
+@import "provision/misc";
+@import "provision/sidebar-and-main-panel";
+@import "provision/buttons";
+@import "provision/inputs";
+@import "provision/alerts";
+@import "provision/tables";
+@import "provision/checkbox-radio";
+@import "provision/navbars";
+@import "provision/footers";
 // Fancy Stuff
-@import "paper/dropdown";
-@import "paper/cards";
-@import "paper/chartist";
-@import "paper/responsive";
+@import "provision/dropdown";
+@import "provision/cards";
+@import "provision/chartist";
+@import "provision/responsive";

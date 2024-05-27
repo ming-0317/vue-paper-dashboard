@@ -2,7 +2,6 @@
   <div class="contact-us full-screen">
     <nav class="navbar navbar-ct-default" role="navigation-demo">
       <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button
             type="button"
@@ -19,8 +18,6 @@
             >Site title</router-link
           >
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navigation-example-2">
           <ul class="nav navbar-nav navbar-right">
             <li>
@@ -28,9 +25,7 @@
             </li>
           </ul>
         </div>
-        <!-- /.navbar-collapse -->
       </div>
-      <!-- /.container-->
     </nav>
     <div class="wrapper wrapper-full-page section content">
       <div class="">

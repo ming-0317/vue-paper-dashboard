@@ -73,16 +73,10 @@ export default {
     };
   },
   methods: {
-    /***
-     * Initializes the chart by merging the chart options sent via props and the default chart options
-     */
     initChart(Chartist) {
       const chartIdQuery = `#${this.chartId}`;
       Chartist[this.chartType](chartIdQuery, this.chartData, this.chartOptions);
     },
-    /***
-     * Assigns a random id to the chart
-     */
     updateChartId() {
       const currentTime = new Date().getTime().toString();
       const randomInt = this.getRandomInt(0, currentTime);

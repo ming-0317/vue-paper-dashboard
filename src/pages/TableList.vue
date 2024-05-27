@@ -8,61 +8,81 @@
         </div>
       </card>
     </div>
-
-    <div class="col-12">
-      <card class="card-plain">
-        <div class="table-full-width table-responsive">
-          <paper-table
-            type="hover"
-            :title="table2.title"
-            :sub-title="table2.subTitle"
-            :data="table2.data"
-            :columns="table2.columns"
-          >
-          </paper-table>
-        </div>
-      </card>
-    </div>
   </div>
 </template>
 <script>
 import { PaperTable } from "@/components";
-const tableColumns = ["Id", "Name", "Salary", "Country", "City"];
+const tableColumns = ["Id", "Name", "Activity","Total", "Address"];
 const tableData = [
   {
     id: 1,
-    name: "Dakota Rice",
-    salary: "$36.738",
-    country: "Niger",
-    city: "Oud-Turnhout",
+    name: "Lim",
+    activity: "eyetest",
+    total: "RM100",
+    address: "Johor",
   },
   {
     id: 2,
-    name: "Minerva Hooper",
-    salary: "$23,789",
-    country: "Curaçao",
-    city: "Sinaai-Waas",
+    name: "Lee",
+    activity: "eyetest",
+    total: "RM100",
+    address: "Johor",
   },
   {
     id: 3,
-    name: "Sage Rodriguez",
-    salary: "$56,142",
-    country: "Netherlands",
-    city: "Baileux",
+    name: "Wong",
+    activity: "sunglass",
+    total: "RM188",
+    address: "Johor",
   },
   {
     id: 4,
-    name: "Philip Chaney",
-    salary: "$38,735",
-    country: "Korea, South",
-    city: "Overland Park",
+    name: "Tan",
+    activity: "eyeglasses",
+    total: "RM288",
+    address: "Johor",
   },
   {
     id: 5,
-    name: "Doris Greene",
-    salary: "$63,542",
-    country: "Malawi",
-    city: "Feldkirchen in Kärnten",
+    name: "Tai",
+    activity: "contact lens",
+    total: "RM123",
+    address: "Johor",
+  },
+  {
+    id: 6,
+    name: "Ong",
+    activity: "sunglasses",
+    total: "RM188",
+    address: "Johor",
+  },
+  {
+    id: 7,
+    name: "Chai",
+    activity: "eyetest",
+    total: "RM120",
+    address: "Johor",
+  },
+  {
+    id: 8,
+    name: "Lai",
+    activity: "contact lens",
+    total: "RM99",
+    address: "Johor",
+  },
+  {
+    id: 9,
+    name: "Lye",
+    activity: "sunglasses",
+    total: "RM188",
+    address: "Johor",
+  },
+  {
+    id: 10,
+    name: "Sun",
+    activity: "eyeglasses",
+    total: "RM388",
+    address: "Johor",
   },
 ];
 
@@ -73,14 +93,8 @@ export default {
   data() {
     return {
       table1: {
-        title: "Stripped Table",
-        subTitle: "Here is a subtitle for this table",
-        columns: [...tableColumns],
-        data: [...tableData],
-      },
-      table2: {
-        title: "Table on Plain Background",
-        subTitle: "Here is a subtitle for this table",
+        title: "Records",
+        subTitle: "",
         columns: [...tableColumns],
         data: [...tableData],
       },

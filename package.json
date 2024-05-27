@@ -1,5 +1,5 @@
 {
-  "name": "vue-paper-dashboard",
+  "name": "provision-dashboard",
   "version": "1.0.1",
   "private": true,
   "scripts": {
@@ -21,16 +21,16 @@
     "vue-router": "3.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "3.12.1",
-    "@vue/cli-plugin-eslint": "3.12.1",
-    "@vue/cli-service": "3.12.1",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "@vue/eslint-config-prettier": "5.1.0",
     "sass": "1.56.2",
     "sass-loader": "10.2.0",
     "vue-template-compiler": "2.7.14"
   },
-  "description": "A sample admin dashboard based on paper dashboard UI template",
-  "author": "cristian.jora <joracristi@gmail.com>",
+  "description": "A sample admin dashboard based on ProVision  UI template",
+  "author": "M ",
   "engines": {
     "node": ">= 8.1.4",
     "npm": ">= 5.0.0"

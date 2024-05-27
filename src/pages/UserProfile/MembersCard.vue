@@ -36,21 +36,21 @@
 export default {
   data() {
     return {
-      title: "Team members",
+      title: "Members",
       members: [
         {
           image: require("@/assets/img/faces/face-0.jpg"),
-          name: "Dj Khaled",
+          name: "Kate",
           status: "Offline",
         },
         {
           image: require("@/assets/img/faces/face-1.jpg"),
-          name: "Creative Tim",
+          name: "Alice",
           status: "Available",
         },
         {
           image: require("@/assets/img/faces/face-1.jpg"),
-          name: "Flume",
+          name: "Peter",
           status: "Busy",
         },
       ],
